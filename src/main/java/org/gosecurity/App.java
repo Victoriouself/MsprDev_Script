@@ -27,8 +27,6 @@ public class App
         List<Agent> listAgent = getListAgent(listTool);
         IndexGenerator indexGenerator = new IndexGenerator(listAgent, listTool, App.websitePath);
         indexGenerator.generateIndex();
-        PasswordGenerator passwordGenerator = new PasswordGenerator(listAgent, App.websitePath, App.basePath);
-        passwordGenerator.generateAgentPassword();
         for (Agent agent:
              listAgent) {
             System.out.println("Agent");
