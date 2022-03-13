@@ -1,6 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="GoSecurity">
-    <output-path>$PROJECT_DIR$/out/artifacts/GoSecurity</output-path>
-    <root id="archive" name="GoSecurity.jar" />
-  </artifact>
-</component>
