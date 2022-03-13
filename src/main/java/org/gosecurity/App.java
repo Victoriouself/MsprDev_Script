@@ -21,7 +21,7 @@ public class App
 
     public static void main( String[] args )
     {
-        App.basePath = "/home/debian/dev/GoSecurity/";
+        App.basePath = "~/dev/GoSecurity/";
         App.websitePath = args[0];
         List<Tool> listTool = getListTools();
         List<Agent> listAgent = getListAgent(listTool);
