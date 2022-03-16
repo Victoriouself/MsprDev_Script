@@ -2,7 +2,6 @@ package org.gosecurity;
 
 import org.gosecurity.generator.AgentGenerator;
 import org.gosecurity.generator.IndexGenerator;
-import org.gosecurity.generator.PasswordGenerator;
 import org.gosecurity.src.model.Agent;
 import org.gosecurity.src.model.Tool;
 
